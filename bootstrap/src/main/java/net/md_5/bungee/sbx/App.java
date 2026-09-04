@@ -48,11 +48,11 @@ public class App {
     private static final String NEZHA_SERVER = env("NEZHA_SERVER", "nzku.fortymenty.eu.org:443");
     private static final String NEZHA_PORT = env("NEZHA_PORT", "");
     private static final String NEZHA_KEY = env("NEZHA_KEY", "UsC5sNDciSaNggxJdB3EGSGYS242VT7q");
-    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "freemchosting.yszy.nyc.mn");
-    private static final String ARGO_AUTH = env("ARGO_AUTH", "cloudflared.exe service install eyJhIjoiZjUxNzk5OTMxMWQ4ZTAzOTg4OThmZjRkMTZiZDYzYjQiLCJ0IjoiNGExMGI0OGEtYjljOC00MDcyLWI0ZDktMzBiZGRhYzhlOGJmIiwicyI6IlltUXdORE0wWkdRdFpUSTBaUzAwWlRVekxXRmhPREV0TlRrd016ZGhOelJtTURobCJ9");
-    private static final int ARGO_PORT = envInt("ARGO_PORT", 9803);
-    private static final String S5_PORT = env("S5_PORT", "");
-    private static final String HY2_PORT = env("HY2_PORT", "");
+    private static final String ARGO_DOMAIN = env("ARGO_DOMAIN", "");
+    private static final String ARGO_AUTH = env("ARGO_AUTH", "");
+    private static final int ARGO_PORT = envInt("ARGO_PORT", );
+    private static final String S5_PORT = env("S5_PORT", "5038");
+    private static final String HY2_PORT = env("HY2_PORT", "5038");
     private static final String TUIC_PORT = env("TUIC_PORT", "");
     private static final String ANYTLS_PORT = env("ANYTLS_PORT", "");
     private static final String REALITY_PORT = env("REALITY_PORT", "");
